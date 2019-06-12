@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+    <!-- Onsen css -->
+    <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/onsenui/css/onsen-css-components.min.css"
+    />
+    <!-- Onsen script -->
+    <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="beer.css" />
+    <title>Red Rooster Beer Pairings</title>
+  </head>
+  <body>
+    <ons-page>
+      <ons-toolbar>
+        <div class="center">
+          <img class="logo" src="./rr.png" alt="" />Red Rooster Beer Pairings
+          <img class="logo" src="./rr2.png" alt="" />
+        </div>
+      </ons-toolbar>
+      <section id="container">
+        <p>
+          <label for="">Enter Food:</label>
+          <ons-input id="food" modifier="underbar" placeholder="Steak">
+          </ons-input>
+        </p>
+        <p>
+          <ons-button modifier="large" id="btnSearch" class="btn"
+            >Search</ons-button
+          >
+          <ons-button modifier="large" id="btnNewSearch" class="btn">
+            New Search</ons-button
+          >
+        </p>
+
+        <div id="result"></div>
+      </section>
+      <!-- # container -->
+    </ons-page>
+    <script src="beer.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+#food {
+  width: 95%;
+}
+#container {
+  margin: 5px;
+}
+
+.beer {
+  border: 1px solid black;
+  margin: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 10px 13px 30px -19px rgba(10, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+.beerImage {
+  padding: 10px;
+  width: 50px;
+  order: 1;
+}
+.beerImage img {
+  width: 60px;
+}
+.logo {
+  width: 55px;
+}
+ons-button {
+  cursor: pointer;
+}
+#btnNewSearch {
+  margin-top: 1rem;
+}
+.btn {
+  cursor: pointer;
+}
+
+#center {
+  font-size: 50px;
+}
